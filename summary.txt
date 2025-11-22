@@ -1,0 +1,10 @@
+I used SimPy to drive the simulation of shoppers in a grocery store and determine 
+approximately how long they wait to check out. The shoppers arrived on a regular basis, 
+spent time shopping based on the number of items they had, and then joined a single 
+line to checkout. Checkers were processing customers based on the number of items 
+they have, and the simulation tracked wait times and idle time.
+
+I tested different numbers of checkers, and from this, I learned that too few checkers 
+provide excessively long waits while more checkers reduce the waits but increase the 
+idle time. In the simulation, this helped me in clearly understanding how arrival rate,
+ service speed, and length of queue affect the overall performance in a real-world system.
